@@ -1,0 +1,33 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+body{
+	background: url(header.jpg) center/cover;
+	flex-wrap: wrap;
+}
+
+h1 ,  button {
+	text-transform: uppercase;
+}
+
+hr {
+	border-color: #F25A00;
+	border-width: 3px;
+	max-width: 70px;
+}
+
+.btn {
+	border-radius: 2em;
+	padding: 1em;
+}
+
+.btn-warning{
+	background: #F25A00;
+	border: 1px solid #F25A00;
+	color: white;
+}
